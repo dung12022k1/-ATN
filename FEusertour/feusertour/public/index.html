@@ -1,0 +1,71 @@
+<!DOCTYPE html>
+<html lang="">
+  <head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width,initial-scale=1.0">
+<!--    <link rel="icon" href="<%= BASE_URL %>favicon.ico">-->
+<!--    <title><%= htmlWebpackPlugin.options.title %></title>-->
+      <meta name="description" content="Citytours - Premium site template for city tours agencies, transfers and tickets."><meta name="author" content="Ansonika">
+          <title>CITY TOURS - City tours and travel site template by Ansonika</title>
+          <!-- Favicons-->
+          <link rel="shortcut icon" href="img/favicon.ico" type="image/x-icon">
+          <link rel="apple-touch-icon" type="image/x-icon" href="assets/use/img/apple-touch-icon-57x57-precomposed.png">
+          <link rel="apple-touch-icon" type="image/x-icon" sizes="72x72" href="assets/use/img/apple-touch-icon-72x72-precomposed.png">
+          <link rel="apple-touch-icon" type="image/x-icon" sizes="114x114" href="assets/use/img/apple-touch-icon-114x114-precomposed.png">
+          <link rel="apple-touch-icon" type="image/x-icon" sizes="144x144" href="assets/use/img/apple-touch-icon-144x144-precomposed.png">
+
+          <!-- GOOGLE WEB FONT -->
+          <link href="https://fonts.googleapis.com/css2?family=Gochi+Hand&amp;family=Montserrat:wght@300;400;500;600;700&amp;display=swap" rel="stylesheet">
+
+          <!-- COMMON CSS -->
+      <link href="assets/use/css/bootstrap.min.css" rel="stylesheet">
+      <link href="assets/use/css/style.css" rel="stylesheet">
+      <link href="assets/use/css/vendors.css" rel="stylesheet">
+
+          <!-- ALTERNATIVE COLORS CSS -->
+          <link href="#" id="colors" rel="stylesheet">
+  </head>
+  <body>
+    <noscript>
+      <strong>We're sorry but <%= htmlWebpackPlugin.options.title %> doesn't work properly without JavaScript enabled. Please enable it to continue.</strong>
+    </noscript>
+    <div id="app"></div>
+    <!-- built files will be auto injected -->
+    <!-- /Sign In Popup -->
+    <script src="https://unpkg.com/vue-agile"></script>
+    <link rel="stylesheet" href="https://unpkg.com/vue-agile/dist/VueAgile.css">
+    <!-- Common scripts -->
+    <script type="application/javascript" src="assets/use/js/jquery-3.6.0.min.js"></script>
+    <script type="application/javascript" src="assets/use/js/common_scripts_min.js"></script>
+    <script type="application/javascript" src="assets/use/js/functions.js"></script>
+    <!-- Specific scripts -->
+    <!-- Cat nav mobile -->
+    <script type="application/javascript" src="assets/use/js/cat_nav_mobile.js"></script>
+    <script type="application/javascript">
+        $('#cat_nav').mobileMenu();
+    </script>
+
+    <!-- Map -->
+    <script type="application/javascript" src="http://maps.googleapis.com/maps/api/js?key=AIzaSyAUQKuq-IHkzCt4VoGq2z4XYJ_ip7ZRkws"></script>
+    <script type="application/javascript" src="assets/use/js/map.js"></script>
+    <script type="application/javascript" src="assets/use/js/infobox.js"></script>
+    <script src="http://maps.googleapis.com/maps/api/js?key=AIzaSyAUQKuq-IHkzCt4VoGq2z4XYJ_ip7ZRkws"></script>
+    <!-- SWITCHER  -->
+    <script type="application/javascript" src="assets/use/js/switcher.js"></script>
+    <!-- Specific scripts -->
+    <!-- End Header -->
+    <div id="style-switcher">
+        <h2>Color Switcher <a href="#"><i class="icon_set_1_icon-65"></i></a></h2>
+        <div>
+            <ul class="colors" id="color1">
+                <li><a href="#" class="default" title="Defaul"></a></li>
+                <li><a href="#" class="aqua" title="Aqua"></a></li>
+                <li><a href="#" class="green_switcher" title="Green"></a></li>
+                <li><a href="#" class="orange" title="Orange"></a></li>
+                <li><a href="#" class="blue" title="Blue"></a></li>
+            </ul>
+        </div>
+    </div>
+  </body>
+</html>
